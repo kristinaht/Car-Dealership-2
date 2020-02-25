@@ -1,0 +1,4 @@
+C:\Users\Kristina\desktop\car-dealership\obj\Debug\netcoreapp2.2\Car.csprojAssemblyReference.cache
+C:\Users\Kristina\desktop\car-dealership\obj\Debug\netcoreapp2.2\Car.csproj.CoreCompileInputs.cache
+C:\Users\Kristina\desktop\car-dealership\obj\Debug\netcoreapp2.2\Car.AssemblyInfoInputs.cache
+C:\Users\Kristina\desktop\car-dealership\obj\Debug\netcoreapp2.2\Car.AssemblyInfo.cs
