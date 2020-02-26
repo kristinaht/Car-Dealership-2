@@ -26,6 +26,8 @@ namespace Dealership
 
       List<Car> CarsMatchingSearch = new List<Car>(0);
 
+      yugo.SetPrice(300);
+
       foreach(Car automobile in Cars)
       {
         if(automobile.WorthBuyingPrice(maxPrice, maxMiles))

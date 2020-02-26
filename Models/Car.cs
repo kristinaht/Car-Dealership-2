@@ -38,6 +38,11 @@ namespace Dealership.Models
       return _message;
     }
 
+    public void SetPrice(int newPrice)
+    {
+      _price = newPrice;
+    }
+
     public bool WorthBuyingPrice(int maxPrice, int maxMiles)
     {
       return (_price <maxPrice && _miles<maxMiles);
