@@ -43,6 +43,11 @@ namespace Dealership.Models
       _price = newPrice;
     }
 
+    public static string MakeSound(string sound)
+    {
+      return "Our cars sound like " + sound;
+    }
+
     public bool WorthBuyingPrice(int maxPrice, int maxMiles)
     {
       return (_price <maxPrice && _miles<maxMiles);

@@ -50,6 +50,9 @@ namespace Dealership
       {
       Console.WriteLine("No cars for you!");
       }
+
+      Console.WriteLine(Car.MakeSound("bang"));
+
      }
   }
 }  
