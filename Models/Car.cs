@@ -18,6 +18,26 @@ namespace Dealership.Models
       _message = message;
     }
 
+    public string GetMakeModel()
+    {
+      return _makeModel;
+    }
+
+    public int GetPrice()
+    {
+      return _price;
+    }
+
+    public int GetMiles()
+    {
+      return _miles;
+    }
+
+    public string GetMessage()
+    {
+      return _message;
+    }
+
     public bool WorthBuyingPrice(int maxPrice, int maxMiles)
     {
       return (_price <maxPrice && _miles<maxMiles);
