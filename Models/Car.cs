@@ -21,6 +21,10 @@ namespace Dealership.Models
       _cars.Add(this);
     }
 
+    public static List<Car> GetAll()
+    {
+      return _cars;
+    }
     public string GetMakeModel()
     {
       return MakeModel;
