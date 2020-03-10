@@ -3,7 +3,7 @@ using Dealership.Models;
 
 namespace Dealership.Controllers
 {
-  public class ItemsController: Controller
+  public class CarsController: Controller
   {
     [HttpGet("/cars")]
       public ActionResult Index()
