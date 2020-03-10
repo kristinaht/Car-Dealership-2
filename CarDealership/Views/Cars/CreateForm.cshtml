@@ -1,13 +1,14 @@
 <!--[HttpPost("/cars/new")] CreateForm-->
+<!--on Submit I am routed to: [HttpPost("/cars")] Create(). Create is used only for creating new Cars so it doesn't require a separate View file. It will route me back to Index page. -->
 <h1>Add new car details below</h1>
-<form action="/cars/new" method="get">
+<form action="/cars" method="get">
   <label for="makeModel">Add model</label>
   <input id="makeModel" name="makeModel" type="text">
-  <label for="price">Add model</label>
+  <label for="price">Add price</label>
   <input id="price" name="price" type="text">
-  <label for="miles">Add model</label>
+  <label for="miles">Add total miles</label>
   <input id="miles" name="miles" type="text">
-  <label for="message">Add model</label>
+  <label for="message">Add a message</label>
   <input id="message" name="message" type="text">
   <button type="submit">Submit</button>
 </form>
