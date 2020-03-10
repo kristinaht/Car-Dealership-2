@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 
 namespace Dealership.Models
 {
@@ -9,6 +10,7 @@ namespace Dealership.Models
     public int Price { get; set; }
     public int Miles { get; set; }
     public string Message { get; set; }
+    private static List<Car> _cars = new List<Car>(){};
 
     public Car(string makeModel, int price, int miles, string message)
     {
@@ -16,6 +18,7 @@ namespace Dealership.Models
       Price = price;
       Miles = miles;
       Message = message;
+      _cars.Add(this);
     }
 
     public string GetMakeModel()
